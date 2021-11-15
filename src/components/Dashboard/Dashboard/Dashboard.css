@@ -1,0 +1,62 @@
+.dashboard-area {
+	padding: 60px 0;
+}
+.sidebar-area {
+	background: #fff;
+	box-shadow: 0 4px 20px rgba(0,0,0,.1);
+	border-radius: 10px;
+	height: 100%;
+}
+.welcome-title {
+	padding-bottom: 40px;
+}
+.welcome-title h2 {
+	font-size: 40px;
+}
+.banner-area.tutor-area .row {
+	align-items: center;
+}
+.sidebar-area img {
+	margin-top: 20px;
+	max-width: 90px;
+}
+.sidebar-menu {
+	display: flex;
+    flex-direction: column;
+	margin-bottom: 0;
+	list-style: none;
+	padding: 0 20px;
+	padding-top: 30px;
+    height:60vh;
+    text-align:center;
+}
+.sidebar-menu a {
+	margin: 4px 0;
+	color: #646464 !important;
+	padding: 6px 22px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	text-decoration: none;
+	display: block;
+    width:100%;
+}
+.dashboard-right-area {
+	background: #fff;
+	box-shadow: 0 4px 20px rgba(0,0,0,.1);
+	border-radius: 10px;
+	position: relative;
+	padding: 20px;
+}
+.sidebar-area h2 {
+	font-size: 30px;
+	color: #646464 !important;
+	padding-top: 10px;
+}
+.dashboad a {
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: navajowhite;
+	margin-right: 20px;
+}

@@ -1,0 +1,72 @@
+[
+    {
+        "serviceName": "TVS Raider",
+        "shortdescription": "Forth unto night their foubehold night theiearth .",
+        "img": "http://shemolroy.com/motor/tVS-Raider.webp",
+        "rating" : "5",
+        "price" : "101000"
+    },
+    {
+        "serviceName": "TVS Apache RTR 160 4V",
+        "shortdescription": "Forth unto night their foubehold night theiearth .",
+        "img": "http://shemolroy.com/motor/tVS-Apache-RTR.webp",
+        "rating" : "4.5",
+        "price" : "90000"
+    },
+    {
+        "serviceName": "Hero Glamour",
+        "shortdescription": "Forth unto night their foubehold night theiearth .",
+        "img": "http://shemolroy.com/motor/heroGlamour.webp",
+        "rating" : "5",
+        "price" : "85000"
+    },
+    {
+        "serviceName": "Hero Super Splendor",
+        "shortdescription": "Forth unto night their foubehold night theiearth .",
+        "img": "http://shemolroy.com/motor/hero-motocorp-super-splendor.webp",
+        "rating" : "4",
+        "price" : "75000"
+    },
+    {
+        "serviceName": "Honda Hornet 2.0",
+        "shortdescription": "Forth unto night their foubehold night theiearth .",
+        "img": "http://shemolroy.com/motor/hornet.webp",
+        "rating" : "4.5",
+        "price" : "120000"
+    },
+    {
+        "serviceName": "Honda CB350RS",
+        "shortdescription": "Forth unto night their foubehold night theiearth .",
+        "img": "http://shemolroy.com/motor/donda.jpg",
+        "rating" : "5",
+        "price" : "130000"
+    },
+    {
+        "serviceName": "Bajaj Pulsar 220 F",
+        "shortdescription": "Forth unto night their foubehold night theiearth .",
+        "img": "http://shemolroy.com/motor/bajaj-pulsar.jpg",
+        "rating" : "5",
+        "price" : "140000"
+    },
+    {
+        "serviceName": "Bajaj Pulsar RS200",
+        "shortdescription": "Forth unto night their foubehold night theiearth .",
+        "img": "http://shemolroy.com/motor/bajaj-pulsar-rs.jpg",
+        "rating" : "5",
+        "price" : "160000"
+    },
+    {
+        "serviceName": "Yamaha R15 V4",
+        "shortdescription": "Forth unto night their foubehold night theiearth .",
+        "img": "http://shemolroy.com/motor/yamaha.webp",
+        "rating" : "5",
+        "price" : "140000"
+    },
+    {
+        "serviceName": "Yamaha FZS 25",
+        "shortdescription": "Forth unto night their foubehold night theiearth .",
+        "img": "http://shemolroy.com/motor/yamaha1.webp",
+        "rating" : "5",
+        "price" : "130000"
+    }
+]

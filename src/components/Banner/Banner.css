@@ -1,0 +1,50 @@
+.banner-area {
+	padding: 90px 0 90px 0;
+	background: url(./../../bikes-bg.webp);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+.content-area h2 {
+	font-size: 45px;
+	font-weight: 700;
+	text-align: center;
+    margin-bottom:20px;
+	color:#000;
+	font-style:italic;
+}
+.content-area {
+	text-align: center;
+}
+.bike-image img {
+	width: 100%;
+}
+.about-area .row {
+	align-items: center;
+}
+.content-area p {
+	font-size: 20px;
+	text-align: center;
+	color:#000
+}
+.content-area a {
+	background: #151320;
+	border: 0;
+	color: #FFF !important;
+	padding: 13px 30px !important;;
+	border-radius: 9px;
+	margin-top: 20px;
+	border:1px solid #151320 !important;
+}
+a{
+	outline:none !important;
+}
+a:focus{
+	box-shadow: none !important;
+}
+.button-area {
+	margin-top: 20px;
+}
+.button-area a {
+	padding: 15px 30px;
+}

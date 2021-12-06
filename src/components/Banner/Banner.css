@@ -1,9 +1,9 @@
 .banner-area {
-	padding: 90px 0 90px 0;
-	background: url(./../../bikes-bg.webp);
+	padding: 215px  0 190px 0;
+	background: url(./../../hero-banner-image.png);
 	background-size:cover;
 	background-repeat: no-repeat;
-	background-position:center;
+	background-position:top;
 }
 .content-area h2 {
 	font-size: 45px;
@@ -28,13 +28,14 @@
 	color:#000
 }
 .content-area a {
-	background: #151320;
-	border: 0;
-	color: #FFF !important;
-	padding: 13px 30px !important;;
-	border-radius: 9px;
-	margin-top: 20px;
-	border:1px solid #151320 !important;
+    background: #009af5;
+    border: 0;
+    color: #FFF !important;
+    padding: 14px 50px !important;
+    border-radius: 9px;
+    margin-top: 20px;
+    border: 1px solid #009af5!important;
+    font-size: 20px;
 }
 a{
 	outline:none !important;

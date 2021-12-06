@@ -14,7 +14,7 @@ const Addnewservices = () => {
         const price = priceRef.current.value;
         const services ={serviceName:serviceName,shortdescription:shortdescription,img:imageurl,price:price}
 
-        fetch('http://localhost:5000/services',{
+        fetch('https://secret-gorge-46028.herokuapp.com/services',{
             method:'POST',
             headers:{
                 'content-type' :'application/json'
@@ -32,9 +32,9 @@ const Addnewservices = () => {
     }
     return (
         <div className="order-form contact-form-area">
-            <h2>Add New Service</h2>
+            <h2>Add New Product</h2>
             <form onSubmit={handleAddUser}>
-                <input type="text" name="" id="" ref={servicenameRef} placeholder="Service Name" />
+                <input type="text" name="" id="" ref={servicenameRef} placeholder="Product Name" />
                 <input type="text" name="" id="" ref={shortdescriptionRef} placeholder="Short Descriptions" />
                 <input type="text" name="" id="" ref={imageurlRef} placeholder="Image Url"/>
                 <input type="text" name="" id="" ref={priceRef} placeholder="Price" />

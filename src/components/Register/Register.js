@@ -25,7 +25,7 @@ const Register = () => {
         setName(e.target.value);
     }
     const hangleRegistration = e =>{
-        saveUser(email,name);
+        saveUser(email,name)
         createUserWithEmailAndPassword(auth, email, password)
         .then(result => {
             console.log(result.user)
@@ -43,7 +43,7 @@ const Register = () => {
     }
     const saveUser = (email,displayName) =>{
         const user = {email,displayName}
-        fetch('http://localhost:5000/users',{
+        fetch('https://secret-gorge-46028.herokuapp.com/users',{
             method:'POST',
             headers:{
                 'content-type': 'application/json'

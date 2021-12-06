@@ -1,0 +1,37 @@
+.review-slider-area {
+	margin-bottom: 60px;
+}
+.slider-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	border: none;
+	box-shadow: 0 1px 3px 0 rgba(36,39,44,.15);
+	padding: 20px;
+	border-radius: 20px;
+	margin-top: 30px;
+	background: ghostwhite;
+}
+.slider-item img {
+    max-width: 90px;
+    margin: auto;
+    padding-bottom: 6px;
+    border-radius: 50%;
+    height: 85px;
+    width: 88px;
+    border: 2px dotted #000;
+    object-fit: cover;
+    margin-bottom: 11px;
+}
+.fas.fa-star {
+	color: #ffa500;
+}
+.slider-item p {
+	font-size: 20px;
+	padding-top: 15px;
+}
+.slider-item h2 {
+    font-size: 18px;
+    font-weight: 700;
+}

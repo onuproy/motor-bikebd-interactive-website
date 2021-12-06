@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .header-area {
-	background: #151320;
+	background: #009af5;
 	padding: 10px 0;
 }
 .header-area .row {
@@ -12,9 +12,8 @@ body{
 	text-align: left;
 }
 .logo-area a {
-	font-size: 45px;
+	font-size: 30px;
 	color: #FFF;
-	font-family: 'Akronim', cursive;
 	text-decoration: navajowhite;
 }
 .menubar-area ul {
@@ -36,7 +35,7 @@ body{
 	float:right ;
 }
 .found-area {
-	padding: 60px;
+	padding: 80px;
 }
 .found-area img {
 	max-width: 445px;

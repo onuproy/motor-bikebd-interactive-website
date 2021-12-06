@@ -6,7 +6,7 @@ const Myorders = () => {
     const [orders,setOrder] = useState([]);
     const {user,logout} = useAuth();
     useEffect(()=>{
-        fetch(`http://localhost:5000/myorders?email=${user.email}`)
+        fetch(`https://secret-gorge-46028.herokuapp.com/myorders?email=${user.email}`)
         .then(res => res.json())
         .then(data => setOrder(data))
     },[])
@@ -14,7 +14,7 @@ const Myorders = () => {
     const hangleDeleteUser = id =>{
         const proceed = window.confirm('Are You Delete it?');
         if(proceed){
-            const url= `http://localhost:5000/orders/${id}`;
+            const url= `https://secret-gorge-46028.herokuapp.com/orders/${id}`;
             fetch(url,{
                 method: 'DELETE',
             })
@@ -37,11 +37,9 @@ const Myorders = () => {
                     <tr>
                     <th scope="col">Name</th>
                     <th scope="col">Email</th>
-                    <th scope="col">Service Name</th>
+                    <th scope="col">Products Name</th>
                     <th scope="col">Addresh</th>
-                    <th scope="col">City</th>
-                    <th scope="col">Phone</th>
-                    <th scope="col"></th>
+                    <th scope="col">Status</th>
                     <th scope="col"></th>
                     </tr>
                 </thead>
@@ -54,10 +52,8 @@ const Myorders = () => {
                     <td>{order.email}</td>
                     <td>{order.ordername}</td>
                     <td>{order.address}</td>
-                    <td>{order.city}</td>
-                    <td>{order.phone}</td>
-                    <td>Update</td>
-                    <td onClick={()=>hangleDeleteUser(order._id)}>X</td>
+                    <td></td>
+                    <td onClick={()=>hangleDeleteUser(order._id)}>Cancel</td>
                     </tr>):
                     <td></td>
                 }

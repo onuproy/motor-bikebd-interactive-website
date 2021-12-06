@@ -6,7 +6,7 @@ const HomeService = () => {
     const [services, setService] = useState([]);
     const singleServices = services.slice(0,6);
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://secret-gorge-46028.herokuapp.com/services')
         .then(res => res.json())
         .then(data => setService(data))
     },[])
@@ -16,7 +16,7 @@ const HomeService = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="title">
-                            <h1>Our Popular Bikes</h1>
+                            <h1>Best Discount Offers Bike</h1>
                         </div>
                     </div>
                     {

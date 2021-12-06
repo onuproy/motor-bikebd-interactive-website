@@ -1,5 +1,5 @@
 .contact-area {
-	padding: 60px 0 40px 0;
+	padding: 80px 0 40px 0;
 }
 .contact-heading h2 {
 	font-family: Poppins;
@@ -14,10 +14,10 @@
 }
 .title-area h2 {
 	font-size: 45px;
-	padding-bottom: 20px;
+	padding-bottom: 44px;
 }
 .order-form{
-	padding:60px 0;
+	padding:35px 0;
 }
 li{
 	list-style:none;
@@ -51,7 +51,7 @@ li{
 .submit-button {
 	width: 130px !important;
 	height: 50px !important;
-	background: #6C63FF;
+	background: #009af5;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;

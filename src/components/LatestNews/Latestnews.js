@@ -7,13 +7,13 @@ const Latestnews = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="title">
-                            <h2>Popular Brands</h2>
+                            <h2>Our Popular Brands</h2>
                         </div>
                     </div>
                     <div className="col-lg-3">
                         <div className="latestnews-content">
-                            <img src="https://bd.gaadicdn.com/pwa/img/brandLogo_168x84/tvs.jpg" alt="" />
-                            <h3>TVS</h3>
+                            <img src="https://bd.gaadicdn.com/pwa/img/brandLogo_168x84/bajaj.jpg" alt="" />
+                            <h3>Bajaj</h3>
                         </div>
                     </div>
                     <div className="col-lg-3">
@@ -30,10 +30,11 @@ const Latestnews = () => {
                     </div>
                     <div className="col-lg-3">
                         <div className="latestnews-content">
-                            <img src="https://bd.gaadicdn.com/pwa/img/brandLogo_168x84/bajaj.jpg" alt="" />
-                            <h3>Bajaj</h3>
+                            <img src="https://bd.gaadicdn.com/pwa/img/brandLogo_168x84/tvs.jpg" alt="" />
+                            <h3>TVS</h3>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>

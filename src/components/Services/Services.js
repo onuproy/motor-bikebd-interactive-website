@@ -5,7 +5,7 @@ import css from './Services.css'
 const Service = () => {
     const [services, setService] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://secret-gorge-46028.herokuapp.com/services')
         .then(res => res.json())
         .then(data => setService(data))
     },[])
@@ -15,7 +15,7 @@ const Service = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="title">
-                            <h1>Our Popular Bikes</h1>
+                            <h1>Our Popular Latest Bikes</h1>
                         </div>
                     </div>
                     {

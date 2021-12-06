@@ -19,7 +19,7 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-12">
                         <div className="copyright-area">
-                            <p>© 2021 All Rights Reserved</p>
+                            <p>© 2021 All Rights Reserved <a href="https://trusting-curie-85d4f1.netlify.app/">Motorbike BD </a></p>
                         </div>
                     </div>
                 </div>

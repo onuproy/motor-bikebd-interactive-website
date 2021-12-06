@@ -3,14 +3,16 @@ import { useParams } from 'react-router';
 import useAuth from '../../Hooks/useAuth';
 
 const Reviews = () => {
+    const {user} = useAuth();
     const reviewRef = useRef();
     const ratingRef = useRef();
     const handleAddUser = e =>{
         const review = reviewRef.current.value;
         const rating = ratingRef.current.value;
-        const reviewdescription ={reviewdescription:review,rating:rating}
+        const name = user.displayName;
+        const reviewdescription ={name:name,reviewdescription:review,rating:rating}
 console.log(reviewdescription)
-        fetch('http://localhost:5000/reviews',{
+        fetch('https://secret-gorge-46028.herokuapp.com/reviews',{
             method:'POST',
             headers:{
                 'content-type' :'application/json'

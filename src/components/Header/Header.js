@@ -5,23 +5,26 @@ import { Link } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 
 const Header = () => {
-    const {user,logout} = useAuth();
+    const {user,logout,admin} = useAuth();
     return (
         <header className="header-area">
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
                         <div className="logo-area">
-                            <Link to="/home">BikerPlace</Link>
+                            <Link to="/home">Motorbike BD</Link>
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="menubar-area">
-                            <ul>
+                            {
+                                !admin &&
+                                <ul>
                                 <li><Link to="/home">Home</Link></li>
                                 <li><Link to="/service">Products</Link></li>
                                 <li><Link to="/contact">Contact</Link></li>
-                            </ul>
+                                </ul>
+                            }
                         </div>
                     </div>
                     <div className="col-md-4">

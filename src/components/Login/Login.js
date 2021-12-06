@@ -15,7 +15,7 @@ const Login = () => {
     const auth = getAuth();
     const location = useLocation();
     const history = useHistory();
-    const redirect_uri = location.state?.from || '/home'
+    const redirect_uri = location.state?.from || '/dashboard'
 
     const hangleEmail = e =>{
         setEmail(e.target.value);

@@ -7,7 +7,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 const Review = () => {
     const [reviews, setReview] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/reviews')
+        fetch('https://secret-gorge-46028.herokuapp.com/reviews')
         .then(res => res.json())
         .then(data => setReview(data))
     },[])
@@ -20,9 +20,11 @@ const Review = () => {
                             <h2>Our Customer Review</h2>
 
                             <div className="review-slider-area">
-                                {
-                                    reviews.map(review => <Single key={review._id}review={review}></Single>)
-                                }
+                                <div className="row">
+                                    {
+                                        reviews.map(review => <Single key={review._id}review={review}></Single>)
+                                    }
+                                </div>
                             </div>
                         </div>
                     </div>

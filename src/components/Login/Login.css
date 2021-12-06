@@ -30,3 +30,36 @@
 .sign-button i {
 	margin-right: 6px;
 }
+.admin-form-area {
+	padding: 40px 0;
+}
+.admin-form-area form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.admin-form-area input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #18191F;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    font-size: 16px;
+    outline: none !important;
+    font-family: 'Poppins', sans-serif;
+    max-width: 440px;
+    margin: auto;
+    margin-top: 10px;
+    background: -webkit-linear-gradient(left, #da8cff, #9a55ff);
+    background: linear-gradient(to right, #da8cff, #9a55ff);
+    color: #FFF;
+    cursor: pointer;
+}
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    border-bottom: 1px solid #a35cff;
+    vertical-align: middle;
+}

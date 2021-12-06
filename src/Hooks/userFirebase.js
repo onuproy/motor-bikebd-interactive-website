@@ -7,6 +7,7 @@ initializeAuthentication();
 const useFirebase = () => {
     const [user,setUser] = useState({});
     const [error,setError] = useState({});
+    const [admin,setAdmin] = useState(false);
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
     const signInWith = signInWithEmailAndPassword;
@@ -28,6 +29,11 @@ const useFirebase = () => {
             }
         })
     }, [])
+    useEffect(() =>{
+        fetch(`https://secret-gorge-46028.herokuapp.com/users/${user.email}`)
+        .then(res => res.json())
+        .then(data=> setAdmin(data.admin))
+    },[user.email])
     const logout = () => {
         signOut(auth)
         .then(() => {
@@ -37,6 +43,7 @@ const useFirebase = () => {
     return{
         user,
         error,
+        admin,
         signInUsingGoogle,
         logout,
         signInWith,
